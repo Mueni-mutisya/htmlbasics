@@ -1,0 +1,29 @@
+.fruits{
+    background-color: aqua;
+    border: 2px dotted #c12a2a; 
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    /* background-image: url(https://ichef.bbci.co.uk/images/ic/1920x1080/p06hk0h6.jpg); */
+padding: 15px;
+margin: 15px;
+}
+.cars{
+    background-color: #c12a2a;
+    border: 10px solid#0c4681;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+    float: left;
+    color: aqua;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    background-image: url(https://global.toyota/pages/news/images/2024/04/18/1330/001.jpg);
+}
+#computer{
+    background-color: #c12a2a;
+}
+#pens{
+    background-color: #c12a2a;
+}

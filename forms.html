@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Student Registration</h2>
+        <p>Please Fill in your details below</p>
+        <form action="">
+            <div class="form-group">
+                <label for="">Full Name</label>
+                <input type="text" placeholder="Enter Full Name">
+            </div>
+            <div class="form-group">
+                <label for="">email</label>
+                <input type="email" placeholder="enter email" required> 
+            </div>
+            <div class="form-group">
+                <label for="">Date of birth</label>
+                <input type="date" required>
+            </div>
+            <div class="form-group">
+                <label for="">phone</label>
+                <input type="text" placeholder="enter phone no" required>
+            </div>
+            <div class="form-group">
+                <label for="">male</label>
+                <input type="radio" name="gender" required>
+                <label for="">female</label>
+                <input type="radio" name="gender" required>
+                <label for="">other</label>
+                <input type="radio" name="gender" required>
+            </div>
+            <div class="form-group">
+                <label for="">courses</label>
+                <select name="" id="">
+                    <option value="js">javascript</option>
+                    <option value="web">web development</option>
+                    <option value="cyb">cybersecurity</option>
+                    <option value="data">data science</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="">address</label>
+                <textarea placeholder="Enter your adress" name="address">
+
+                </textarea>
+            </div>
+            <button class="btn">register student</button>
+        </form>
+        <form-container class="">
+                <h2>my details</h2>
+                <p>please fill in these details</p>
+            
+            </form-container>
+            <form action="">
+                <div class="form-details">
+                <label for="">full name</label>
+                <input type="text" placeholder="Enter full name" required>
+            </div>
+            <div class="form-details">
+                <label for="">phone number</label>
+                <input type="text" placeholder="enter phone number" required>
+            </div>
+            <div class="form-details">
+                <label for="">date of birth</label>
+                <input type="date" placeholder=" enter D.O.B" required>
+            </div>
+            <div class="form-details">
+                <input type="radio" name="gender" required>
+                <label for="">female</label>
+                <input type="radio" name="gender" required>
+                <label for="">male</label>
+            </div>
+            <div class="form-details">
+                <label for="">your comment</label>
+                <textarea aria-placeholder="give your comments" id="">please fill in</textarea>
+            </div>
+        </form>
+</body>
+</html>
